@@ -16,7 +16,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('TouchVG', '/pages/touchvg.html'),
+LINKS = (('Features', '/pages/features.html'),
          ('About', '/pages/about.html'),)
 
 # Social widget
