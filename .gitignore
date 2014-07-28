@@ -1,3 +1,10 @@
 .ropeproject
 venv
 *.pyc
+*.pid
+[Tt]humbs.db
+*.DS_Store
+*.bak*
+*~
+._*
+*.tmp

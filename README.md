@@ -1,14 +1,22 @@
-## touchvg.github.io
+# touchvg.github.io
 
-#### Quickstart
+Online document of the TouchVG frameworks.
+
+## Quickstart
+
+### Install at first
 
 ```
-1. virtualenv venv
-2. . venv/bin/activate
-3. pip install pelican
-4. pip install Markdown
-5. make html
-6. make serve
+virtualenv venv
+. venv/bin/activate
+pip install pelican
+pip install Markdown
 ```
 
-Go to: `http://localhost:8000`
+### Compile
+
+1. `. venv/bin/activate`
+2. Cd the direction of this project
+3. `make devserver` or `make html serve`
+
+Go to [localhost:8000](http://localhost:8000).

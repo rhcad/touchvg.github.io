@@ -21,7 +21,9 @@ LINKS = (('Features', '/pages/features.html'),
 
 # Social widget
 SOCIAL = (('Document@GitHub', 'https://github.com/touchvg/touchvg.github.io'),
-          ('TouchVG@GitHub', 'https://github.com/touchvg/touchvg'),)
+          ('TouchVG for iOS', 'https://github.com/touchvg/vgios'),
+          ('TouchVG for Android', 'https://github.com/touchvg/vgandroid'),
+          ('TouchVGCore', 'https://github.com/touchvg/vgcore'),)
 
 DEFAULT_PAGINATION = 10
 
