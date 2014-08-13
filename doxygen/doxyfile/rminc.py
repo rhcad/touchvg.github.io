@@ -9,6 +9,9 @@ def rminc(dir):
         if os.path.isdir(sfile):
             rminc(sfile)
             continue
+        if '_wrap.' in fn:
+            os.remove(sfile)
+            continue
         if fn.endswith('.h') or fn.endswith('.m') or fn.endswith('.mm'):
             text = open(sfile).read()
             newtext = text.replace('#import <UIKit/UIKit.h>', '')
