@@ -1,0 +1,37 @@
+Title: 可用的命令列表
+Date: 2014-09-06 15:00
+Slug: Commands
+
+## 基本命令
+- select: 选择
+- erase: 橡皮擦
+- rect: 矩形
+- square: 正方形
+- ellipse: 椭圆
+- circle: 圆
+- circle3p: 三点画圆
+- diamond: 菱形
+- line: 线段
+- dot: 点
+- polygon: 多边形
+- quadrangle: 四边形
+- lines: 折线
+- splines: 随时画曲线
+- triangle: 三角形
+- parallel: 平行四边形
+- grid: 网格
+- arc3p: 三点圆弧
+- arc_cse: 圆心圆弧
+- arc_tan: 切线圆弧
+
+## 特殊命令
+- @draw: 上一绘图命令
+- @last: 上一命令
+- erasewnd: 删除当前视图内可见图形
+
+
+## 带参数的扩展绘图命令
+例如: `[hlp setCommand:@"line" withParam:@"{'rayline':true}"];`
+
+- line `{'rayline':true}`: 射线
+- line `{'beeline':true}`: 无穷直线

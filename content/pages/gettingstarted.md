@@ -5,7 +5,7 @@ Date: 2014-02-01 08:00
 目前 TouchVG ...
 
 ---
-### TODO
+- [可用的命令列表](commands.html)
 
 * TODO
 
