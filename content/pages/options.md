@@ -44,6 +44,10 @@ Slug: Options
 - lockRotateHandle: 总是绕指定序号的控制点旋转
 - selectDrawFlags: 选中图形的显示特性，由 MgSelDrawFlags 枚举值按位组成
 - rotateStepAngle: 旋转的最小增量度数
+- hitTestTol: 点击选择图形的容差(毫米)
+- cloneOffset: 克隆图形时新图形的偏移量(毫米)
+- cloneOffsetX: 克隆图形时新图形向右的偏移量(毫米)
+- cloneOffsetY: 克隆图形时新图形向上的偏移量(毫米)
 
 ## 绘图选项
 - drawOneShape: 画完一个图形就切换到选择命令
@@ -62,6 +66,7 @@ Slug: Options
 - snapNear: 捕捉线上点
 - snapNearTol: 捕捉线上点的容差(毫米)
 - snapPointTol: 捕捉点的容差(毫米)
+- snapXTol: 捕捉坐标分量的容差(毫米)
 - snapPerp: 捕捉垂足
 - perpOut: 捕捉线外垂足
 - snapTangent: 捕捉切点
