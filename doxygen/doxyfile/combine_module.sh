@@ -43,16 +43,16 @@ cp -R $rootpath/vgcore/core/include/record $destpath
 cp -R $rootpath/vgcore/core/src/view $destpath
 cp -R $rootpath/vgcore/core/include/view $destpath
 
-mkdir -p $destpath/play
-cp -R $rootpath/vgplay/core/*.* $destpath/play
+#mkdir -p $destpath/play
+#cp -R $rootpath/vgplay/core/*.* $destpath/play
 
-mkdir -p $destpath/iosplay
-cp -R $rootpath/vgplay/ios/include/*.* $destpath/iosplay
-cp -R $rootpath/vgplay/ios/src/*.* $destpath/iosplay
+#mkdir -p $destpath/iosplay
+#cp -R $rootpath/vgplay/ios/include/*.* $destpath/iosplay
+#cp -R $rootpath/vgplay/ios/src/*.* $destpath/iosplay
 
-mkdir -p $destpath/DemoCmds
-cp -R $rootpath/DemoCmds/core/gate/*.* $destpath/DemoCmds
-cp -R $rootpath/DemoCmds/core/cmds/*.* $destpath/DemoCmds
+#mkdir -p $destpath/DemoCmds
+#cp -R $rootpath/DemoCmds/core/gate/*.* $destpath/DemoCmds
+#cp -R $rootpath/DemoCmds/core/cmds/*.* $destpath/DemoCmds
 
 mkdir -p $destpath/winview
 cp -R $rootpath/vgwin/include/canvas/*.* $destpath/winview

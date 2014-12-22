@@ -8,15 +8,18 @@ Slug: Commands
 - rect: 矩形
 - square: 正方形
 - ellipse: 椭圆
-- circle: 圆
+- circle2p: 圆
 - circle3p: 三点画圆
 - diamond: 菱形
 - line: 线段
+- rayline: 射线
+- beeline: 无穷直线
 - dot: 点
 - polygon: 多边形
 - quadrangle: 四边形
 - lines: 折线
-- splines: 随时画曲线
+- splines: 随手画曲线
+- spline_mouse: 样条曲线
 - triangle: 三角形
 - parallel: 平行四边形
 - grid: 网格
@@ -31,7 +34,9 @@ Slug: Commands
 
 
 ## 带参数的扩展绘图命令
-例如: `[hlp setCommand:@"line" withParam:@"{'rayline':true}"];`
+例如: `[hlp setCommand:@"line" withParam:@"{'fixedsize':true}"];` 或 `[hlp setCommand:@"line{'locked':true}"];`
 
-- line `{'rayline':true}`: 射线
-- line `{'beeline':true}`: 无穷直线
+- 'fixedlen':true: 定长
+- 'fixedsize':true: 固定大小
+- 'locked':true: 锁定
+- 'hiden':true: 隐藏
