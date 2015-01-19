@@ -20,10 +20,10 @@ LINKS = (('Features', '/pages/features.html'),
          ('About', '/pages/about.html'),)
 
 # Social widget
-SOCIAL = (('Document@GitHub', 'https://github.com/touchvg/touchvg.github.io'),
-          ('TouchVG for iOS', 'https://github.com/touchvg/vgios'),
-          ('TouchVG for Android', 'https://github.com/touchvg/vgandroid'),
-          ('TouchVGCore', 'https://github.com/touchvg/vgcore'),)
+SOCIAL = (('Document@GitHub', 'https://github.com/rhcad/touchvg.github.io'),
+          ('TouchVG for iOS', 'https://github.com/rhcad/vgios'),
+          ('TouchVG for Android', 'https://github.com/rhcad/vgandroid'),
+          ('TouchVGCore', 'https://github.com/rhcad/vgcore'),)
 
 DEFAULT_PAGINATION = 10
 

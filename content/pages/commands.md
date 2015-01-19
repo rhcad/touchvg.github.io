@@ -40,3 +40,5 @@ Slug: Commands
 - 'fixedsize':true: 固定大小
 - 'locked':true: 锁定
 - 'hiden':true: 隐藏
+- 'points': 指定新图形的绘图坐标，由多个x,y组成，用于自动创建图形
+- 'multiMoved':true: 指定'points'参数对应的坐标由多个touchMove和一个touchBegan和touchEnded组成。默认为false，表示'points'参数对应的坐标每两点触发一次touchEnded，这些坐标将按touchBegan(奇数点)、touchMove(偶数点)、touchEnded(偶数点)的顺序触发。
