@@ -10,3 +10,4 @@ venv
 *.tmp
 *.ch*
 *.hh*
+.idea/

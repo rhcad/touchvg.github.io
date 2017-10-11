@@ -1,4 +1,6 @@
-<hr size="1"><address>
-<small>通用矢量图形框架(https://github.com/rhcad/touchvg)，版权所有 (C) 张云贵 2004-2014，<a href="mailto:rhcad@hotmail.com">rhcad@hotmail.com</small></address>
+<hr size="1"><address style="margin: 0 10px"><small>
+<a href="https://github.com/rhcad/touchvg" target="_blank">通用矢量图形框架</a>，
+版权所有 (C) <a href="https://github.com/rhcad" target="_blank">张云贵</a> 2004-2017，BSD 开源许可证
+</small></address>
 </body>
 </html>

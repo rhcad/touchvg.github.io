@@ -17,6 +17,7 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINKS = (('Features', '/pages/features.html'),
+         ('Document', '/doc/'),
          ('About', '/pages/about.html'),)
 
 # Social widget

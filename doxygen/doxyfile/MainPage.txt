@@ -17,6 +17,10 @@
 	\section sectinoIntro 概述
 
 	欢迎使用通用矢量绘图框架(https://github.com/rhcad/touchvg)的编程文档，欢迎反馈意见。
+	<br>如需Fork或提交PR问题或补丁，请访问
+	<a href="https://github.com/rhcad/vgcore" target="_blank">vgcore</a>、
+	<a href="https://github.com/rhcad/vgios" target="_blank">vgios</a>、
+	<a href="https://github.com/rhcad/vgandroid" target="_blank">vgandroid</a> 等相关项目。
 
 	通用图形平台库的跨平台部分采用C++实现，包含下列模块：
 	
